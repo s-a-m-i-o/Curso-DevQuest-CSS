@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "letra-de-mao";
+    src: url('./fonts/Beauty\ Wind.otf'),
+    url('./fonts/Beauty\ Wind.ttf');
+}
+
+h1 {
+    font-family: "letra-de-mao";
+    font-size: 45px;
+    text-align: center;
+    color: red;
+}

@@ -1,0 +1,57 @@
+body {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.container {
+    background-color: lightgray;
+    height: 150px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 250PX;
+    height: 50PX;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 1,2em;
+}
+
+
+.texto-centralizado-1 {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    text-align: center;
+    line-height: 150px;
+
+}
+
+.texto-centralizado-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+.alinhado-margin-auto {
+    margin: auto;
+    display: block;
+}
+
+.alinhado-absolute {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+.container-text-align {
+    text-align: center;
+}

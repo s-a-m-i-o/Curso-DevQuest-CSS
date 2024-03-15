@@ -1,0 +1,41 @@
+ul {
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 400px;
+}
+ul li {
+    list-style: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin: 15px;
+    padding: 3px 5px;
+    background-color: #ccc;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

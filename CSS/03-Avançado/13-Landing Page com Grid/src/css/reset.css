@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+

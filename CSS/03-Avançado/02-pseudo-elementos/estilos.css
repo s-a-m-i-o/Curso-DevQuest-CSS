@@ -1,0 +1,26 @@
+.first-letter::first-letter {
+    font-size: 32px;
+}
+
+.first-line::first-line {
+    font-weight: bold;
+    color: red;
+}
+
+li::marker {
+    color: red;
+    font-size: 25px;
+}
+
+.before::before{
+    content: "";
+    background: url(./img/1.png) center center no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.after::after{
+    content: url(./img/2.png);
+  
+}

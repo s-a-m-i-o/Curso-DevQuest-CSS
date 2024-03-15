@@ -1,0 +1,23 @@
+a {
+    cursor: no-drop;
+    margin: 15px;
+    padding: 10px;
+    transition: 300ms;
+}
+
+a:visited {
+    color: red;
+   }
+
+   /* active muda quando estiver clicando */
+a:active {
+    color: green; 
+}
+
+a:hover {
+    background-color: #ccc;
+    color: white;
+    border: 3px solid blue;
+    border-radius: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

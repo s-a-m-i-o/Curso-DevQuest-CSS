@@ -1,0 +1,40 @@
+
+.odin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+}
+
+.card {
+    background-color: hsl(217, 19%, 24%);
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.tema-menor, .conteudo-cor, .pauzinhos {
+    text-align: center;
+    padding: 15px;
+}
+
+.fora-dado {
+    position: absolute;
+    background-color: hsl(150, 100%, 66%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 63%;
+}
+
+p.dado {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    padding: 5px;
+    border-radius: 50%;
+    
+}

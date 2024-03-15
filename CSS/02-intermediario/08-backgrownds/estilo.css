@@ -1,0 +1,41 @@
+P {
+    color: coral;
+    font-size: 24PX;
+    font-weight: bold;
+}
+
+.bg {
+    background-color: lightgreen;
+    background-image: url(./img/cat.png);
+}
+
+.bg-image {
+    width: 513px;
+    height: 340px;
+}
+
+.bg-repeat {
+    background-repeat: no-repeat;
+    height: 340px;
+}
+
+.bg-size-cover {
+    background-size: cover;
+    height: 540px;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+    height: 540px;
+}
+
+.bg-position {
+    background-position: right bottom ;
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.bg-resumido {
+    background: #000 url(./img/cat.png) no-repeat right top;
+    height: 540px;
+}

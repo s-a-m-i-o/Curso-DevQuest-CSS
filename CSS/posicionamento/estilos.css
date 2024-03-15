@@ -1,0 +1,41 @@
+
+.pai {
+    color: white;
+    text-align: center;
+}
+.filho-inline {
+    display: inline;
+   /* display: inline; não permite definir largura ou autura */
+    
+}
+
+.filho-block {
+    display: block;
+    width: 33.3%;
+    height: 50px;
+    
+}
+
+.filho-inline-block {
+    width: 25%;
+    height: 50px; display: inline-block; 
+   
+    
+}
+
+.esquerdo {
+    background-color: red;
+       
+    }
+
+.centro {
+    background-color: green;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.direito {
+    background-color: blue;
+    margin-left: auto;
+        
+}

@@ -1,0 +1,71 @@
+@media (max-width:768px) {
+
+    body {
+        background: var(--cor-de-fundo) url('../images/bg-mobile.png');
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+    }
+
+    .about img {
+        width: 550px;
+    }
+
+    .about .info {
+        text-align: center;
+    }
+}
+
+@media (max-width:375px) {
+
+    body {
+        background: var(--cor-de-fundo) url('../images/bg-mobile.png') no-repeat;
+        height: 100vh;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding: none;
+        margin-bottom: 10px;
+        
+        
+    }
+
+    .about img {
+        width: 350px;
+        padding: 30px;
+        margin: none;
+    }
+
+    .about .info  {
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .about .info h1 {
+        padding: 5px;
+        font-size: 22px;
+    }
+
+    .about .info p {
+        font-size: 16px;
+        padding: none;
+        margin: none;
+    }
+
+    .footer{
+        margin-top: 15px;
+    }
+
+    .footer p {
+        display: none;
+    }
+
+    .footer .footer-info nav {
+        margin: 5px;
+        
+    }
+
+}

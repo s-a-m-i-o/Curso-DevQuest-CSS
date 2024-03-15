@@ -1,0 +1,10 @@
+.nao-entendi {
+    font-size: 26px;
+    color: red;
+    border: double 3px brown;
+}
+
+.nao {
+    border: double 3px red;
+    background-color: rgba(250, 149, 149, 0.158);
+}

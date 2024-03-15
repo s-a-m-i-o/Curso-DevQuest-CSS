@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de posicionamento de elementos</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+
+    <h1 class="alinhado">Teste de posicionamento de elementos</h1>
+    
+    <h3 class="alinhado">Display in-line</h3>
+
+    <p>Elementos ficam um do lado do outro, mas não permite que coloquemos largura e altura</p>
+
+    <ul class="pai">
+        <li class="filho-inline esquerdo">ESQUERDO</li>
+        <li class="filho-inline centro">CENTRO</li>
+        <li class="filho-inline direito">DIREITO</li>
+    </ul>
+
+    <h3 class="alinhado">Display block</h3>
+
+    <p>Pode se modificar a largura e altura, mas os elementos ocupam a linha toda, não podem ser colocados um do lado do outro</p>
+
+    <ul class="pai">
+        <li class="filho-block esquerdo">ESQUERDO</li>
+        <li class="filho-block centro">CENTRO</li>
+        <li class="filho-block direito">DIREITO</li>
+    </ul>
+
+    <h3 class="alinhado">Display inline-block</h3>
+
+    <p>É a junjção do display in-line e display block. Permite modificar a altura e largua, e pode ser adicionado um ao lado do outro. mas se comportam como palabras.(O ALINHAMENTO PODE SER ADICIONADO COM O TEXT-ALING:"CENTER / RIGTH / JUSTIFY")
+    </p>
+
+    <ul class="pai">
+        <li class="filho-inline-block esquerdo">ESQUERDO</li>
+        <li class="filho-inline-block centro">CENTRO</li>
+        <li class="filho-inline-block direito">DIREITO</li>
+    </ul>
+    
+
+</body>
+</html>

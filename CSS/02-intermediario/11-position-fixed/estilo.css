@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 1500px;
+    padding-top: 82px;
+}
+
+header {
+    font-size: 24PX;
+    background-color:lightskyblue;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    top: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+li {
+    border: 2px solid white;
+    border-radius: 45px;
+    padding: 1px 25px;    
+}

@@ -1,0 +1,33 @@
+.fa-instagram{
+    color: #ccc;
+    font-size: 30px;
+}
+
+.fa-instagram:hover {
+    color: rgb(231, 98, 120);
+    font-size: 40px;
+    transition: 500ms;
+}
+
+.fa-facebook {
+    color: #ccc;
+    font-size: 30px;
+ }
+
+ .fa-facebook:hover {
+    color: blue;
+    font-size: 40px;
+    transition: 500ms;
+ }
+
+ .fa-youtube {
+    color: #ccc;
+    font-size: 30px;
+ }
+
+ .fa-youtube:hover {
+    color: red;
+    font-size: 40px;
+    transition: 500ms;
+ }
+ 

@@ -1,0 +1,21 @@
+p:first-child {
+    color: red;
+}
+
+p:last-child {
+    color: rgb(30, 255, 0);
+}
+
+/* p:not(.padrao) {
+    font-weight: bold;
+    color: green; 
+} */
+
+li:nth-child(4) {
+    color: red;
+}
+
+p:only-child {
+    font-size: 30px;
+    color: blueviolet;
+}

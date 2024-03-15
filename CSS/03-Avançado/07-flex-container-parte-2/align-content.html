@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/align-content.css">
+    <link rel="stylesheet" href="./css/globals.css">
+
+</head>
+<body>
+    <h1>Flex Container - Align content</h1>
+    <h3>O align content. Ele vai alinhar as linhas de um flex container quando tem espaço sobrando no eixo transversal. 
+
+        É semelhante ao justify-content, porém apenas mudando o eixo.</h3>
+        <hr>
+    
+        <section>
+            <h2>Flex-start</h2>
+            <p>Alinha os itens ao topo, no eixo transversal</p>
+            <div class="container flex-start">
+                <div class="item item1">1</div>
+                <div class="item item2">2</div>
+                <div class="item item3">3</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Flex-end</h2>
+            <p>Alinha os itens no final do eixo transversal</p>
+            <div class="container flex-end">
+                <div class="item item1">1</div>
+                <div class="item item2">2</div>
+                <div class="item item3">3</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Center</h2>
+            <p>Alinha os itens no centro do elemento pai</p>
+            <div class="container center">
+                <div class="item item1">1</div>
+                <div class="item item2">2</div>
+                <div class="item item3">3</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Stretch</h2>
+            <p>Se espande ate preencher o elemento pai</p>
+            <div class="container stretch">
+                <div class="item item1">1</div>
+                <div class="item item2">2</div>
+                <div class="item item3">3</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Space-between</h2>
+            <p>Distribui os itens uniformemente, com espaçe entre eles, quebrando a linha caso</p>
+            <p>acabe o tamanho do container</p>
+            <div class="container space-between">
+                <div class="item item1">Lorem ipsum, dolor iosum</div>
+                <div class="item item2">Lorem, ipsum</div>
+                <div class="item item3">3</div>
+                <div class="item item4">4</div>
+                <div class="item item5">5</div>
+                <div class="item item6">6</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Space-around</h2>
+            <p>Distribui os intens com espaço igual ao redor de cada linha</p>
+            <div class="container space-around">
+                <div class="item item1">Lorem ipsum, dolor iosum</div>
+                <div class="item item2">Lorem, ipsum</div>
+                <div class="item item3">3</div>
+                <div class="item item4">4</div>
+                <div class="item item5">5</div>
+                <div class="item item6">6</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Space-evenly</h2>
+            <p>Distribui os intens uniformemente mas com espaço igual entre eles</p>
+            <div class="container space-evenly">
+                <div class="item item1">Lorem ipsum, dolor iosum</div>
+                <div class="item item2">Lorem, ipsum</div>
+                <div class="item item3">3</div>
+                <div class="item item4">4</div>
+                <div class="item item5">5</div>
+                <div class="item item6">6</div>
+            </div>
+        </section>
+
+
+<hr>
+    <footer>
+        <a href="index.html">
+            <button>Voltar</button>
+        </a>
+    </footer>
+    
+</body>
+</html>

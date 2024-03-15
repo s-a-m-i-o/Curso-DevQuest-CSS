@@ -1,0 +1,52 @@
+body {
+    font-family: "Public Sans", sans-serif;
+    color: #fff;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container img {
+    border-radius: 10px;
+}
+
+.texto {
+    width: 215px;
+    height: 60px;
+    
+}
+
+.imagem img {
+    width: 335px;
+    height: 431px;
+    
+}
+
+p.nome {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+p.autor {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.imagem {
+    position: relative;
+    
+}
+
+.imagem .texto {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
